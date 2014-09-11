@@ -1,0 +1,56 @@
+body{
+	background:#996600;
+	padding:0px;
+	margin:0px;
+}
+
+ul{
+	margin-left:350px;
+	list-style:none;
+	-webkit-animation:kinfi 5s;
+	-webkit-animation-iteration-count:infinite;
+	position:fixed;
+}
+
+ul a{
+	text-decoration:none;
+	color:#CCC;
+	width:100px;
+}
+
+ul a li{
+	float:left;
+	text-align:center;
+	padding-top:40px;
+	background:#993366;
+	width:100px;
+	height:50px;
+	position:static;
+}
+
+@-webkit-keyframes kinfi{
+	0%{margin-top:100px;}
+	50%{margin-left:650px;}
+	100%{margin-top:100px;}
+}
+
+#white1{
+	position:fixed;
+	width:690px;
+	height:90px;
+	background:white;
+	opacity:0.5;
+	margin-top:100px;
+	z-index:1;
+}
+
+#white2{
+	z-index:1;
+	margin-top:100px;
+	opacity:0.5;
+	margin-left:790px;
+	position:fixed;
+	width:690px;
+	height:90px;
+	background:white;
+}
